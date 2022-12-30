@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+/* First card styling starts here */
+.card {
+  background-color: hsl(213, 19%, 18%);
+  height: 270px;
+  width: 300px;
+  color: white;
+  font-family: "Overpass";
+  padding: 50px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.card-rating-icon {
+  background-color: hsl(213, 14%, 25%);
+  padding: 10px;
+  border-radius: 50%;
+  color: hsl(25, 97%, 53%);
+  margin-bottom: 20px;
+}
+.card-rating-title {
+  margin-bottom: 10px;
+}
+.card-rating-description {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  margin-bottom: 30px;
+}
+.card-rating-list {
+  list-style: none;
+  display: flex;
+  margin-bottom: 30px;
+}
+.card-rating-list li {
+  background-color: hsl(213, 14%, 25%);
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.card-rating-list li:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.card-rating-button {
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.card-rating-button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+/* First Card Styling Ends Here */
+.hidden {
+  display: none;
+}
+.card-thankyou {
+  text-align: center;
+  background-color: hsl(213, 19%, 18%);
+  height: 270px;
+  width: 300px;
+  color: white;
+  font-family: "Overpass";
+  padding: 50px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.card-thankyou-image {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.card-thankyou-rating {
+  font-size: 12px;
+  background-color: hsl(215, 11%, 22%);
+  padding: 5px 0;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  color: hsl(25, 97%, 53%);
+}
+.card-thankyou-title {
+  margin-bottom: 20px;
+}
+.card-thankyou-description {
+  font-size: 13px;
+}
